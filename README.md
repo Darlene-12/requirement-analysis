@@ -38,4 +38,90 @@ It’s typically one of the **first steps in the SDLC**, laying the groundwork f
    - Helps prioritize features based on user needs.
 
 3. **Improves System Quality**
-   - Ensures that all requirements are testable and
+   - Ensures that all requirements are testable and traceable.
+   - Leads to better system performance and customer satisfaction.
+
+---
+
+## 🛠️ Key Activities in Requirement Analysis
+
+- **🔍 Requirement Gathering**
+  - Collect raw information from stakeholders, users, clients, etc.
+
+- **🗣️ Requirement Elicitation**
+  - Use interviews, surveys, observation, and brainstorming to refine needs.
+
+- **📝 Requirement Documentation**
+  - Structure the gathered information into Software Requirements Specifications (SRS).
+
+- **🧩 Requirement Analysis and Modeling**
+  - Organize and break down requirements to detect conflicts, gaps, or overlaps.
+
+- **✅ Requirement Validation**
+  - Confirm that requirements are correct, complete, and aligned with user needs.
+
+---
+
+## 📂 Types of Requirements
+
+### ✅ Functional Requirements
+
+These describe **what the system should do**.
+
+**Examples (Booking Management System):**
+- Users can create accounts and log in.
+- Hosts can list properties with descriptions and prices.
+- Guests can book properties and receive confirmation emails.
+
+### ⚙️ Non-functional Requirements
+
+These define **how the system performs** under various conditions.
+
+**Examples (Booking Management System):**
+- The system should respond within 2 seconds for 95% of requests.
+- The application must support 10,000 concurrent users.
+- All user data must be encrypted and comply with GDPR.
+
+---
+
+## 🎭 Use Case Diagrams
+
+### 📌 What are Use Case Diagrams?
+
+Use Case Diagrams visually represent **actors** (users or systems) and their **interactions** with system functions (use cases). They help stakeholders understand:
+- System boundaries
+- User roles
+- Functional requirements at a high level
+
+### 🧪 Benefits:
+- Easy to understand and explain to non-technical stakeholders
+- Helps uncover functional requirements early
+- Great for planning user stories and test cases
+
+### 🖼️ ALX Booking Use Case Diagram
+
+![Use Case Diagram](alx-booking-uc.png)
+
+---
+
+## ✅ Acceptance Criteria
+
+**Acceptance Criteria** define the **conditions** a feature must meet to be accepted by stakeholders. They serve as:
+- A checklist to verify implementation
+- A tool to drive testing and validation
+- A shared understanding between devs and product owners
+
+### Example – Checkout Feature (Booking System)
+
+> ✅ **Acceptance Criteria for Checkout:**
+- The user must be logged in.
+- The user must have selected a property and booking dates.
+- The system must display a total cost breakdown.
+- The system must validate card/payment method before proceeding.
+- The user receives a booking confirmation email upon successful checkout.
+
+---
+
+> “Requirement Analysis is the bridge between an idea and a solution.”
+
+
